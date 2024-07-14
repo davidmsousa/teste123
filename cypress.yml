@@ -10,7 +10,8 @@ on:
       - main
 
 jobs:
-  cypress-run:
+  build:
+
     runs-on: ubuntu-latest
 
     steps:
