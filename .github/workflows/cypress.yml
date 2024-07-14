@@ -32,4 +32,4 @@ jobs:
         run: npm install cypress-xpath
 
       - name: Run Cypress tests
-        run: npm run cypress:run
+        run: npx cypress open
