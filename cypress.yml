@@ -1,7 +1,9 @@
 # .github/workflows/cypress.yml
 name: Cypress Tests
 
-on: [push, pull_request]
+on: 
+  push:
+  pull_request:
 
 jobs:
   cypress-run:
